@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>La météo des Bg du 13!</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icone.svg">
+</head>
+
+
+<!--formulaire et signe jul-->
+<body onload="loaderFunction()">
+  <div id="loader"></div>
+  <div class="container" id="container">
+    <header>
+      <input type="text" class="search-box" placeholder="Entre une ville... ✌" />
+    </header>
+    <main>
+      <div class="lesigne" id="lesigne">
+        <img src="img/julLeft.png" class="gauche" alt="oretplantine"> <img src="img/julRight.png" class="droite"
+          alt="oretplantine">
+      </div>
+
+<!--météo-->
+      <section class="location">
+        <div class="current">
+          <div class="boxmeteo">
+
+            <div class="temp">50<span>°c</span></div>
+            <div class="city">Stade Vélodrome <br><span>FR</span></div>
+            <div class="alignment">
+              <div class="date">Lundi 4 Janvier 2021</div>
+              <div class="weather">Chaleur</div>
+            </div>
+          </div>
+            <div class="min_max_temp">130°c / 160°c</div>
+        </div>
+      </section>
+        <!--<div class="ovni">
+          <img src="img/ovni.png" alt="error404">
+        </div>-->
+
+
+<!--carte pokemon-->
+        <div class="maincontainer">
+          <div class="thecard">
+            <div class="thefront"></div>
+            <div class="theback">
+              <div class="beer">
+                <div class="beer_type">
+                  Un temps à boire une "<span class="beer_name">Ruby </span>" (reste hydraté le sang tu connais)
+                </div>
+              </div>
+              <div class="jul" title="Clique sur le signe pour voir">
+                Qu'en dit notre phrophète ? <br>
+                <div id="jul_quote">Petit couteau dans la banane, pas de puto dans la cosa</div>
+              </div>
+              <div class="jul2" title="Clique sur le signe pour voir">
+                Ou encore ? <br>
+                <div id="jul_quote2">J'fais que fumer le jaune</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+      <div id="IMACOrganise" class="modal">
+
+
+
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <!-- <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PLYnLCV0tGaTSDCxq4KnlPTuAReglnqT10" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe> -->
+          <!--         <iframe src="https://open.spotify.com/embed/artist/3IW7ScrzXmPvZhB27hmfgy" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+ -->
+
+ <!--lecteur audio-->
+          <audio controls="controls">
+            <source src="imacorganise.mp3" type="audio/mpeg">
+            <source src="imacorganise.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+          </audio>
+
+        </div>
+
+      </div>
+
+
+
+
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
